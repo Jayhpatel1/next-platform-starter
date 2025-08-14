@@ -1,0 +1,50 @@
+[
+	{"id":"vision-1","name":"Carrot-Zingiber Blend","category":"Vision","type":"Blend","ingredients":["carrots","citrus","zingiber","amygdali","curd"]},
+	{"id":"vision-2","name":"Verdant-Carrot Mix","category":"Vision","type":"Mix","ingredients":["verdants","carrots","juglans","citrus vinaigrette"]},
+	{"id":"vision-3","name":"Granatum-Amygdal Extract","category":"Vision","type":"Extract","ingredients":["granatum","amygdal"]},
+	{"id":"vision-4","name":"Cruciferous-Ovum Sauté","category":"Vision","type":"Sauté","ingredients":["cruciferous","ovum"]},
+
+	{"id":"cardio-1","name":"Beet-Citrus Blend","category":"Cardiovascular","type":"Blend","ingredients":["beets","pome","linseeds","curd"]},
+	{"id":"cardio-2","name":"Persea-Lycopersicon on Grain","category":"Cardiovascular","type":"Dish","ingredients":["integral loaf","persea","lycopersicon","olea"]},
+	{"id":"cardio-3","name":"Juglans-Berry Mix","category":"Cardiovascular","type":"Mix","ingredients":["juglans","berries"]},
+	{"id":"cardio-4","name":"Salmon Spice (alt: soy curd with verdants)","category":"Cardiovascular","type":"Dish","ingredients":["salmon","spices","soy curd","verdants"]},
+
+	{"id":"immune-1","name":"Zingiber-Allium Surge Extract","category":"Immunity","type":"Extract","ingredients":["zingiber","allium","citrus","cruciferous"]},
+	{"id":"immune-2","name":"Curcumin Curd Layer","category":"Immunity","type":"Dish","ingredients":["curd","berries","chia","curcumin"]},
+	{"id":"immune-3","name":"Citrus-Verdant Blend","category":"Immunity","type":"Blend","ingredients":["citrus","verdants"]},
+	{"id":"immune-4","name":"Fungus-Allium Broth","category":"Immunity","type":"Broth","ingredients":["fungus","allium"]},
+
+	{"id":"resp-1","name":"Myrtillus-Squash Blend","category":"Respiratory","type":"Blend","ingredients":["myrtillus","squash","verdants"]},
+	{"id":"resp-2","name":"Lycopersicon-Capsicum Sauté","category":"Respiratory","type":"Sauté","ingredients":["lycopersicon","capsicum"]},
+	{"id":"resp-3","name":"Pome-Beet Extract with Mentha","category":"Respiratory","type":"Extract","ingredients":["pome","beet","mentha"]},
+	{"id":"resp-4","name":"Chenopodium-Cruciferous Dish","category":"Respiratory","type":"Dish","ingredients":["chenopodium","cruciferous"]},
+
+	{"id":"msk-1","name":"Soy Curd-Amygdal Shake","category":"Musculoskeletal","type":"Shake","ingredients":["soy curd","amygdali","musa","lact"]},
+	{"id":"msk-2","name":"Ovum-Verdant Frittata","category":"Musculoskeletal","type":"Frittata","ingredients":["ovum","verdants"]},
+	{"id":"msk-3","name":"Ficus-Anacardium Curd Dish","category":"Musculoskeletal","type":"Dish","ingredients":["ficus","anacardium","curd"]},
+	{"id":"msk-4","name":"Osseous Infusion Verdant Broth (alt: pulse-centric)","category":"Musculoskeletal","type":"Broth","ingredients":["verdants","pulses"]},
+
+	{"id":"cog-1","name":"Myrtillus-Juglans Blend","category":"Cognitive","type":"Blend","ingredients":["myrtillus","juglans","verdants"]},
+	{"id":"cog-2","name":"Curcumin Marine Tacos (alt: cottage with verdants)","category":"Cognitive","type":"Dish","ingredients":["curcumin","marine/cottage","verdants"]},
+	{"id":"cog-3","name":"Cacao-Nut Spheres","category":"Cognitive","type":"Snack","ingredients":["cacao","nuts"]},
+	{"id":"cog-4","name":"Verdant Infusion-Berry Fuse","category":"Cognitive","type":"Blend","ingredients":["verdant infusion","berries"]},
+
+	{"id":"hv-1","name":"Zingiber-Granatum Extract","category":"Hormonal & Vigor","type":"Extract","ingredients":["zingiber","granatum","ovum opt"]},
+	{"id":"hv-2","name":"Mollusc-Fungus Sauté","category":"Hormonal & Vigor","type":"Sauté","ingredients":["mollusc","fungus"]},
+	{"id":"hv-3","name":"Ovum-Amygdal Mix","category":"Hormonal & Vigor","type":"Mix","ingredients":["ovum","amygdal"]},
+	{"id":"hv-4","name":"Cepa-Allium Infusion","category":"Hormonal & Vigor","type":"Infusion","ingredients":["cepa","allium"]},
+
+	{"id":"hol-1","name":"Berry-Avena Blend","category":"Holistic Wellness","type":"Blend","ingredients":["berries","avena","chia"]},
+	{"id":"hol-2","name":"Sorghum-Cruciferous Porridge","category":"Holistic Wellness","type":"Porridge","ingredients":["sorghum","cruciferous"]},
+	{"id":"hol-3","name":"Verdant-Brassica Extract","category":"Holistic Wellness","type":"Extract","ingredients":["verdants","brassica"]},
+	{"id":"hol-4","name":"Thunnus-Verdant Envelope (alt: garbanzo)","category":"Holistic Wellness","type":"Wrap","ingredients":["thunnus/garbanzo","verdants"]},
+
+	{"id":"enh-1","name":"Verdant Purification Dish","category":"Enhanced Bespoke","type":"Dish","ingredients":["verdants","chenopodium","persea","citrus-curcumin vinaigrette"]},
+	{"id":"enh-2","name":"Anabolic Flaps","category":"Enhanced Bespoke","type":"Pancakes","ingredients":["avena","musa","ovum","amygdali"]},
+	{"id":"enh-3","name":"Anti-Inflame Spice","category":"Enhanced Bespoke","type":"Spice","ingredients":["curcumin","zingiber","brassica","verdants"]},
+	{"id":"enh-4","name":"Follicle Fort Sauté","category":"Enhanced Bespoke","type":"Sauté","ingredients":["ovum","verdants","nuts","germinants"]},
+	{"id":"enh-5","name":"Hormonal Surge Potion","category":"Enhanced Bespoke","type":"Potion","ingredients":["granatum","zingiber","withania","mel"]},
+	{"id":"enh-6","name":"Sight Surge Extract","category":"Enhanced Bespoke","type":"Extract","ingredients":["carrots","myrtillus","verdants","citrus"]},
+	{"id":"enh-7","name":"Osseous Fort Blend","category":"Enhanced Bespoke","type":"Blend","ingredients":["curd","ficus","anacardium","musa"]},
+	{"id":"enh-8","name":"Vigor Infusion","category":"Enhanced Bespoke","type":"Infusion","ingredients":["verdant brew","mentha","berries","juglans"]}
+]

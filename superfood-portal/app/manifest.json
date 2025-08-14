@@ -1,0 +1,11 @@
+{
+	"name": "The Super Food AI",
+	"short_name": "SuperFoodAI",
+	"start_url": "/",
+	"display": "standalone",
+	"background_color": "#0f172a",
+	"theme_color": "#16a34a",
+	"icons": [
+		{ "src": "/favicon.ico", "sizes": "64x64 32x32 16x16", "type": "image/x-icon" }
+	]
+}
