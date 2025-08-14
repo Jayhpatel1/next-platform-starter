@@ -1,0 +1,11 @@
+{
+	"expo": {
+		"name": "superfood-mobile",
+		"slug": "superfood-mobile",
+		"scheme": "superfoodai",
+		"plugins": ["expo-router"],
+		"extra": {
+			"eas": { "projectId": "placeholder-project-id" }
+		}
+	}
+}

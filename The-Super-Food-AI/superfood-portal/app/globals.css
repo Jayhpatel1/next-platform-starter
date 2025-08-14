@@ -1,0 +1,41 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+	--background: #0f172a;
+	--foreground: #e2e8f0;
+	--verdant: #16a34a;
+	--citrus: #f59e0b;
+}
+
+@media (prefers-color-scheme: light) {
+	:root {
+		--background: #f8fafc;
+		--foreground: #0f172a;
+	}
+}
+
+body {
+	color: var(--foreground);
+	background: var(--background);
+}
+
+.verdant {
+	color: var(--verdant);
+}
+.citrus {
+	color: var(--citrus);
+}
+.bg-verdant {
+	background-color: var(--verdant);
+}
+.bg-citrus {
+	background-color: var(--citrus);
+}
+
+@layer utilities {
+  .text-balance {
+    text-wrap: balance;
+  }
+}
