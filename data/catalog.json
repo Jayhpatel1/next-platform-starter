@@ -1,0 +1,60 @@
+{
+	"Vision": [
+		{"name": "Carrot-Zingiber Blend", "items": ["carrots", "citrus", "zingiber", "amygdali", "curd"], "calorieProfile": "hypo", "img": "https://source.unsplash.com/random/300x200/?carrot,ginger"},
+		{"name": "Verdant-Carrot Mix", "items": ["verdants", "carrots", "juglans", "citrus vinaigrette"], "img": "https://source.unsplash.com/random/300x200/?greens,salad"},
+		{"name": "Granatum-Amygdal Extract", "items": ["granatum", "amygdal"], "img": "https://source.unsplash.com/random/300x200/?pomegranate"},
+		{"name": "Cruciferous-Ovum Sauté", "items": ["cruciferous", "ovum"], "img": "https://source.unsplash.com/random/300x200/?broccoli,egg"}
+	],
+	"Cardiovascular": [
+		{"name": "Beet-Citrus Blend", "items": ["beets", "pome", "linseeds", "curd"], "img": "https://source.unsplash.com/random/300x200/?beetroot"},
+		{"name": "Persea-Lycopersicon on Grain", "items": ["integral loaf", "persea", "lycopersicon", "olea"], "img": "https://source.unsplash.com/random/300x200/?avocado,toast"},
+		{"name": "Juglans-Berry Mix", "items": ["juglans", "berries"], "img": "https://source.unsplash.com/random/300x200/?walnut,berries"},
+		{"name": "Salmon Spice", "items": ["salmon", "spice"], "alt": "soy curd with verdants", "img": "https://source.unsplash.com/random/300x200/?salmon"}
+	],
+	"Immunity": [
+		{"name": "Zingiber-Allium Surge Extract", "items": ["zingiber", "allium", "citrus", "cruciferous"], "img": "https://source.unsplash.com/random/300x200/?ginger,garlic"},
+		{"name": "Curcumin Curd Layer", "items": ["curd", "berries", "chia", "curcumin"], "img": "https://source.unsplash.com/random/300x200/?turmeric,yogurt"},
+		{"name": "Citrus-Verdant Blend", "items": ["citrus", "verdants"], "img": "https://source.unsplash.com/random/300x200/?citrus,greens"},
+		{"name": "Fungus-Allium Broth", "items": ["fungus", "allium"], "img": "https://source.unsplash.com/random/300x200/?mushroom,soup"}
+	],
+	"Respiratory": [
+		{"name": "Myrtillus-Squash Blend", "items": ["myrtillus", "squash", "verdants"], "img": "https://source.unsplash.com/random/300x200/?blueberry,pumpkin"},
+		{"name": "Lycopersicon-Capsicum Sauté", "items": ["lycopersicon", "capsicum"], "img": "https://source.unsplash.com/random/300x200/?tomato,pepper"},
+		{"name": "Pome-Beet Extract with Mentha", "items": ["pome", "beet", "mentha"], "img": "https://source.unsplash.com/random/300x200/?apple,beet"},
+		{"name": "Chenopodium-Cruciferous Dish", "items": ["chenopodium", "cruciferous"], "img": "https://source.unsplash.com/random/300x200/?quinoa,broccoli"}
+	],
+	"Musculoskeletal": [
+		{"name": "Soy Curd-Amygdal Shake", "items": ["soy curd", "amygdali", "musa", "lact"], "img": "https://source.unsplash.com/random/300x200/?smoothie,almond"},
+		{"name": "Ovum-Verdant Frittata", "items": ["ovum", "verdants"], "img": "https://source.unsplash.com/random/300x200/?egg,greens"},
+		{"name": "Ficus-Anacardium Curd Dish", "items": ["ficus", "anacardium", "curd"], "img": "https://source.unsplash.com/random/300x200/?fig,cashew"},
+		{"name": "Osseous Infusion Verdant Broth", "items": ["osseous infusion", "verdants"], "alt": "pulse-centric", "img": "https://source.unsplash.com/random/300x200/?bone,broth"}
+	],
+	"Cognitive": [
+		{"name": "Myrtillus-Juglans Blend", "items": ["myrtillus", "juglans", "verdants"], "img": "https://source.unsplash.com/random/300x200/?blueberry,walnut"},
+		{"name": "Curcumin Marine Tacos", "items": ["marine", "curcumin"], "alt": "cottage with verdants", "img": "https://source.unsplash.com/random/300x200/?fish,tacos"},
+		{"name": "Cacao-Nut Spheres", "items": ["cacao", "nuts"], "img": "https://source.unsplash.com/random/300x200/?cacao,energy"},
+		{"name": "Verdant Infusion-Berry Fuse", "items": ["verdant infusion", "berries"], "img": "https://source.unsplash.com/random/300x200/?tea,berries"}
+	],
+	"Hormonal & Vigor": [
+		{"name": "Zingiber-Granatum Extract", "items": ["zingiber", "granatum", "ovum opt"], "img": "https://source.unsplash.com/random/300x200/?ginger,pomegranate"},
+		{"name": "Mollusc-Fungus Sauté", "items": ["mollusc", "fungus"], "img": "https://source.unsplash.com/random/300x200/?oyster,mushroom"},
+		{"name": "Ovum-Amygdal Mix", "items": ["ovum", "amygdal"], "img": "https://source.unsplash.com/random/300x200/?egg,almond"},
+		{"name": "Cepa-Allium Infusion", "items": ["cepa", "allium"], "img": "https://source.unsplash.com/random/300x200/?onion,garlic"}
+	],
+	"Holistic Wellness": [
+		{"name": "Berry-Avena Blend", "items": ["berries", "avena", "chia"], "img": "https://source.unsplash.com/random/300x200/?oats,berries"},
+		{"name": "Sorghum-Cruciferous Porridge", "items": ["sorghum", "cruciferous"], "img": "https://source.unsplash.com/random/300x200/?porridge,healthy"},
+		{"name": "Verdant-Brassica Extract", "items": ["verdant", "brassica"], "img": "https://source.unsplash.com/random/300x200/?green,juice"},
+		{"name": "Thunnus-Verdant Envelope", "items": ["thunnus", "verdant"], "alt": "garbanzo", "img": "https://source.unsplash.com/random/300x200/?tuna,wrap"}
+	],
+	"Enhanced Bespoke": [
+		{"name": "Verdant Purification Dish", "items": ["verdants", "chenopodium", "persea", "citrus-curcumin vinaigrette"], "img": "https://source.unsplash.com/random/300x200/?salad,cleanse"},
+		{"name": "Anabolic Flaps", "items": ["avena", "musa", "ovum", "amygdali"], "img": "https://source.unsplash.com/random/300x200/?pancake,protein"},
+		{"name": "Anti-Inflame Spice", "items": ["curcumin", "zingiber", "brassica", "verdants"], "img": "https://source.unsplash.com/random/300x200/?spice,turmeric"},
+		{"name": "Follicle Fort Sauté", "items": ["ovum", "verdants", "nuts", "germinants"], "img": "https://source.unsplash.com/random/300x200/?hair,health"},
+		{"name": "Hormonal Surge Potion", "items": ["granatum", "zingiber", "withania", "mel"], "img": "https://source.unsplash.com/random/300x200/?tonic,health"},
+		{"name": "Sight Surge Extract", "items": ["carrots", "myrtillus", "verdants", "citrus"], "img": "https://source.unsplash.com/random/300x200/?juice,carrot"},
+		{"name": "Osseous Fort Blend", "items": ["curd", "ficus", "anacardium", "musa"], "img": "https://source.unsplash.com/random/300x200/?yogurt,banana"},
+		{"name": "Vigor Infusion", "items": ["verdant brew", "mentha", "berries", "juglans"], "img": "https://source.unsplash.com/random/300x200/?tea,energy"}
+	]
+}

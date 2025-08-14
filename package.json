@@ -6,23 +6,48 @@
         "dev": "next dev",
         "build": "next build",
         "start": "next start",
-        "lint": "next lint"
+        "lint": "next lint",
+        "test": "jest --runInBand",
+        "e2e": "npm run build && start-server-and-test \"next start -p 3000\" http://localhost:3000 \"cypress run --browser electron --headless\""
     },
     "dependencies": {
         "@netlify/blobs": "^8.2.0",
         "blobshape": "^1.0.0",
         "bright": "^0.8.5",
+        "firebase": "^12.1.0",
+        "framer-motion": "^12.23.12",
         "markdown-to-jsx": "^7.4.5",
         "next": "15.4.4",
+        "next-pwa": "^5.6.0",
         "react": "18.3.1",
         "react-dom": "18.3.1",
-        "unique-names-generator": "^4.7.1"
+        "react-hook-form": "^7.62.0",
+        "recharts": "^3.1.2",
+        "unique-names-generator": "^4.7.1",
+        "zod": "^4.0.17",
+        "zustand": "^5.0.7"
     },
     "devDependencies": {
+        "@babel/preset-env": "^7.28.0",
+        "@babel/preset-react": "^7.27.1",
         "@tailwindcss/postcss": "^4.0.15",
+        "@testing-library/jest-dom": "^6.7.0",
+        "@testing-library/react": "^16.3.0",
+        "@types/jest": "^30.0.0",
+        "@types/node": "^24.2.1",
+        "@types/react": "^19.1.10",
+        "@types/react-dom": "^19.1.7",
+        "babel-jest": "^30.0.5",
+        "cypress": "^14.5.4",
         "eslint": "8.57.1",
         "eslint-config-next": "15.4.4",
+        "identity-obj-proxy": "^3.0.0",
+        "jest": "^30.0.5",
+        "jest-environment-jsdom": "^30.0.5",
         "postcss": "^8.4.36",
-        "tailwindcss": "^4.0.15"
+        "start-server-and-test": "^2.0.13",
+        "tailwindcss": "^4.0.15",
+        "ts-jest": "^29.4.1",
+        "ts-node": "^10.9.2"
     }
 }

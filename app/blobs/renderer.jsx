@@ -1,29 +1,21 @@
-import { fixedSize } from './generator';
-import { randomInt } from 'utils';
+'use client';
 
-// See: https://github.com/lokesh-coder/blobs.app/blob/master/src/components/Blob.js
-export function ShapeRenderer(props) {
-    const { svgPath, colors } = props;
-    const uniqueGradientId = `gradient-${randomInt(10_000_000, 100_000_000)}` 
-    return (
-        <div className="w-full bg-white text-primary aspect-square">
-            {!!svgPath && !!colors && (
-            <svg
-                viewBox={`0 0 ${fixedSize} ${fixedSize}`}
-                xmlns="http://www.w3.org/2000/svg"
-                xmlnsXlink="http://www.w3.org/1999/xlink"
-                width="100%"
-            >
-                <>
-                    <defs>
-                        <linearGradient id={uniqueGradientId} x1="0%" y1="0%" x2="0%" y2="100%">
-                            <stop offset="0%" style={{ stopColor: colors[0] }} />
-                            <stop offset="100%" style={{ stopColor: colors[1] }} />
-                        </linearGradient>
-                    </defs>
-                    <path id="blob" d={svgPath} fill={`url(#${uniqueGradientId})`} />
-                </>
-            </svg>)}
-        </div>
-    );
+import { randomInt } from '../../utils';
+
+export function ShapeRenderer({ svgPath, colors }) {
+	const [color1, color2] = colors || [];
+	const stroke = `hsl(${randomInt(0, 359)}, 100%, 40%)`;
+	return (
+		<div className="relative rounded-none bg-gradient-to-br from-white to-neutral-200">
+			<svg viewBox="0 0 512 512" className="w-full h-full">
+				<defs>
+					<linearGradient id="gradient" x1="0%" y1="0%" x2="100%" y2="100%">
+						<stop offset="0%" stopColor={color1} />
+						<stop offset="100%" stopColor={color2} />
+					</linearGradient>
+				</defs>
+				<path d={svgPath} fill="url(#gradient)" stroke={stroke} strokeWidth={2} />
+			</svg>
+		</div>
+	);
 }
